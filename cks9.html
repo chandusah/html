@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> nkc </title>
+<link rel="stylesheet" type="text/css"href="css/13.form.css">
+
+</head>
+<body>
+
+<div class="container">
+<h1> Study: Form</h1>
+
+<h4>Registration Form</h4>
+<form action=""method="post"enctype="multipart/form-data">
+<fieldset>
+   <legend>personalinformation</legend>
+   <div class="group">
+     <lablel for="fname">First Name</lablel>
+	 <input type="text" name="name"id="fname"required="required"placehold="enter Full Name">
+	 <lablel for="mname">Middle Name</lablel>
+	 <input type="text"name="mname" id="mname">
+	 <lablel for="lname">Last Name</lablel>
+	 <input type=text"name="lname"id="lname"required="required"placehold="Enter Last name">
+</div>
+
+<div class="group">
+   <lablel for="male">Gender</lablel>
+    <input type="radio"name="gender"id="male"checked="checked">Male
+    <input type="radio"name="gender"id="femal">Femal
+    <input type="radio"name="gender"id="other">Other
+</div>
+	
+  <div class="group">
+  <lablel for="address">Address</lablel>
+  <input type="text"name="address"id="address"required="required="placehold="Enter your address">
+  
+</div>
+
+<div class="group">
+    <lablel for="Email">Email</lablel>
+    <input type="email"name="email"id="email"required="required"placehold="Enter your email">
+</div>
+
+   <div class="group">
+      <lablel for="phone">Phone Number</lablel>
+	  <input type="number"name="phone"id="phone"required="required"placehold="Enter your phone number">
+</div>
+
+      <div class="group">
+        <lablel for="country">Country</lablel>
+        <select name="country"id="country">
+        <option value="#"select="select">Select Country</option>
+      <option value="np">Nepal</option>
+      <option value="ch">China</option>
+       <option value="in">India</option>
+       <option value="us">US</option>
+       <option value="uk">UK</option>
+  </select>
+</div>
+
+     <div class="group">
+	 <lablel for="pro">programming</lablel>
+	 <input type="checkbox"value="java"name="java"id="java">Java
+	 <input type="checkbox"value="php"name="php"id="php">PHP
+	 <input type="checkbox"value="python"name="python"id="python">python
+	 <input type="checkbox"value="net"name="net"id="net">Net
+	  
+	</div>
+	
+	 <div class="group">
+	 <lablel for="bio">Bio</lablel>
+	 <textarea row="3" cols="100"name="bio"id="bio"placehold="Write something about you">
+	 </textarea>
+   </div>
+   
+   <div class="group">
+   <lablel for="image">Image</lablel>
+   <input type="file"name="image"id="image">
+   
+	</div>
+	
+</fieldset>
+
+      <fieldset>	
+	<legend>User Login Information</legend>
+    
+     <div class="group">
+     <lablel for="username">Username</lablel>
+     <input type="text"name="username" id="username"required="required"placehold="Enter your username">
+	
+	</div>
+	
+	<div class="group">
+	<lablel for="userpassword">Password</lablel>
+	<input type="passwoed"name="userpassword"id="userpassword"required="required"placehold=**************">
+	
+	
+	</div>
+	
+	</fieldset>
+	<button id="submitButton">Submit</button>
+	<input type="button" id="cancelBtn" value="Cancel"name="cancel">
+	
+	</form>
+	
+	</div>
+  
+  </body>
+ </html 
